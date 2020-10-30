@@ -10,7 +10,6 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
 public class СardDeliveryOrderTest {
-
     @Test
     void shouldSendValidRequest() {
         open("http://localhost:9999");
